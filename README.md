@@ -18,5 +18,5 @@ An open source operating system based on the MIT license.
 **本项目kernel部分及引导部分借鉴了[Simple-XX](https://github.com/Simple-XX/)这位老哥的[SimpleKernel](https://github.com/Simple-XX/SimpleKernel/)项目**
 
 # Other languages | その他の言語
-* [x] **[English]()**
-* [ ] **[日本語]()**
+* [x] **[English](https://github.com/Buelie/ExtremeOS/blob/main/OtherLanguages/README_EN.md)**
+* [x] **[日本語](https://github.com/Buelie/ExtremeOS/blob/main/OtherLanguages/README_JA.md)**
