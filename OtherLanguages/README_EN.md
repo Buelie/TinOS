@@ -4,14 +4,14 @@
 # ExtremeOS
 An open source operating system based on the MIT license.
 
-# 说明
+# illustrate
 * [x] **[`src/loader.s`](The file is the boot file (run.sh is being created!). ))**
 * [ ] **[`src/run.sh`]()The file is the virtual machine/host boot boot file**
 * [ ] **[`src/kernel/`]()Under the folder is the kernel of ExtremeOS**
 
 > **What is checked is completed, and what is not checked is unfinished or in production**
 
-# 感谢
+# thank
 * [x] **[Simple-XX](https://github.com/Simple-XX/) This dude's [SimpleKernel](https://github.com/Simple-XX/SimpleKernel/) project**
 * [x] **[Buelie (author of this project)](https://github.com/Buelie/)**
 
@@ -19,4 +19,4 @@ An open source operating system based on the MIT license.
 
 # 其它语言 | その他の言語
 * [x] **[中文简体](https://github.com/Buelie/ExtremeOS/blob/main/README.md)**
-* [ ] **[日本語]()**
+* [x] **[日本語](https://github.com/Buelie/ExtremeOS/blob/main/OtherLanguages/README_JA.md)**
