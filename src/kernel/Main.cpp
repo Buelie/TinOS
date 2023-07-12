@@ -7,6 +7,7 @@ using namespace etr;
 
 void main(register int code)
 {
+  Debug_test();
   return;
 }
 
