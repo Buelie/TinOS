@@ -1,7 +1,8 @@
-
+#include <iostream>
 using namespace etr;
 
-int test()
+int Debug_test()
 {
+  cout << "This is a test function!\n";
   return 200;
 }
