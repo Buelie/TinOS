@@ -1,5 +1,6 @@
 # TinOS
 A two-level lightweight system made by Python
+**This program is suitable for programming education**
 ![image](https://github.com/user-attachments/assets/c83325f5-ec54-440c-a709-3fd4440c3fb1)
 
 # Our goal
