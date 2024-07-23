@@ -5,6 +5,9 @@ import os
 import json
 import time
 import sys
+import subprocess
+
+#TinOS-0.1.6-A-2
 
 # 确认系统文件
 app = 'disk/C/apply'
@@ -149,8 +152,6 @@ def sof_list():
 	SofList.title("开始")
 	SofList.wm_attributes('-topmost',1)
 
-	
-
 	def shut():
 		os.system('shutdown -s -t 3')
 	def dor():
@@ -167,7 +168,8 @@ def sof_list():
 
 	def sofE():
 		OS_Cmd = AppList.get()
-		os.system(f'disk\\C\\apply\\{OS_Cmd}')
+		#exec(open(f'disk\\C\\apply\\{OS_Cmd}',encoding='utf-8').read())
+		subprocess.Popen(['python', f'disk\\C\\apply\\{OS_Cmd}'])
 
 	AppList.grid(row=0,column=2)
 	AppGetBtn = ttk.Button(SofList,text="运行",command=sofE).grid(row=0,column=3)
@@ -184,17 +186,3 @@ h = root.winfo_screenheight()
 root.geometry("%dx%d" %(w, h))
 #root.geometry("600x450+374+182")
 root.mainloop()
-
-"""
-cfg.json
-{
-	"SystemName":"TinOS", //系统名称
-	"Introduce":"一个基于py 图形库制作的操作系统", //系统简介
-	"Version":["0.1.3","正式版"], //系统版本 [版本号,版本类型] (版本类型:正式版,测试版,阿尔法)
-	"en_us":{ //英文配置
-		"SystemName":"TinOS", //系统名称
-		"Introduce":"An operating system based on the py graphics library", //系统简介
-		"Version":["0.1.3","release"] //系统版本 [版本号,版本类型] (版本类型:release,beta,alpha)
-	}
-}
-"""
